@@ -1,0 +1,76 @@
+* { box-sizing: border-box;
+	text-align: center; 
+} 
+
+a:hover { background-color:rgb(186, 212, 212); }
+input:hover { background-color:rgb(186, 212, 212); }
+button:hover { background-color:rgb(186, 212, 212); } 
+
+hr {margin: 0;}
+
+#box1 { 
+	background-color: teal; color: white ;
+	padding: 15px;
+	text-align: center; 
+	font-size: 17px;
+	height: 65px;
+	width: 130px;
+}
+
+#box2 { 
+	background-color: teal; color: white ;
+	padding: 5px;
+	text-align: center; 
+	font-size: 17px;
+	height: 65px;
+	width: 160px;
+}
+
+h1 {font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: teal;
+	font-size: 30px ;
+	text-align: center;
+	padding: 10px; 
+}
+
+#comments { color: green }
+
+#instructions { text-align: center; }
+
+#myScore { color: navy }
+
+p { color: navy }
+
+#main {
+	/* height: 700px;
+	text-align: center;
+	max-width: 960px; 
+	margin: auto;
+	margin: 20px auto 20px auto;
+	border: 1px solid gray;
+	background-color: #ffffff; */
+}
+
+footer, .push {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding: 3px 0px 3px 0px;
+	font-size: 90%;	
+	border-top: 5px solid teal;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (OPTIONAL) */
+.row,
+.row > .column {
+    padding: 2px;
+}
+
